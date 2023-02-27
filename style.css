@@ -1,0 +1,79 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+
+.navbar{
+    background-color: #416949;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: #416949;
+}
+
+#cabecalho h1{
+    font-size: 28px;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-exames .nav-link.active:hover{
+    color: #fff;
+}
+
+.navbar-toggler{
+    background-color: #D5E8DA;
+}
+
+.section-title{
+    font-family: Pacifico, cursive;
+}
+
+#sobre-a-clinica,
+#exames{
+    background-color: #D5E8DA;
+}
+
+.text-colored{
+    color: #416949;
+}
+
+.nav-exames .nav-link.active,
+#fale-conosco button{
+    background-color: #416949;
+    color: #fff;
+}
+
+.nav-exames .nav-link:hover{
+    color: #416949;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;    
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+@media (max-width: 767px){
+    .carousel-item img{
+        height: 280px;
+    }
+}
+
+.carousel-item{
+    text-align: center;
+}
+
+.carousel-item img{
+    width: 100%;
+    max-height: 600px;
+    overflow-y: hidden;
+}
+
+#servicos img{
+    height: 280px;
+}
